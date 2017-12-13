@@ -1,0 +1,44 @@
+Welcome to Xilinx CORE Generator.
+Help system initialized.
+The IP Catalog has been reloaded.
+Wrote CGP file for project 'coregen'.
+coregen.cgp already exists.
+Saved CGP file for project 'coregen'.
+Saved CGP file for project 'coregen'.
+Customize and Generate
+INFO:sim:172 - Generating IP...
+Applying current project options...
+Finished applying current project options.
+Resolving generics for 'clk_wiz_v3_6'...
+Applying external generics to 'clk_wiz_v3_6'...
+Delivering associated files for 'clk_wiz_v3_6'...
+WARNING:sim - Component clk_wiz_v3_6 does not have a valid model name for Verilog synthesis
+Delivering EJava files for 'clk_wiz_v3_6'...
+Delivered 3 files into directory E:/projects/prj_fpga_xilinx/prj_VE-XC6SLX9/xc6_prj/projects/vga_leds_seg7/ipcore_dir/tmp/_cg/clk_wiz_v3_6
+Delivered 1 file into directory E:/projects/prj_fpga_xilinx/prj_VE-XC6SLX9/xc6_prj/projects/vga_leds_seg7/ipcore_dir/tmp/_cg/clk_wiz_v3_6
+Generating ASY schematic symbol...
+Loading device for application Rf_Device from file '6slx9.nph' in environment D:\dev\xilinx\14.7\ISE_DS\ISE\.
+INFO:sim:949 - Finished generation of ASY schematic symbol.
+Generating ISE project...
+XCO file found: clk_wiz_v3_6.xco
+XMDF file found: clk_wiz_v3_6_xmdf.tcl
+Adding E:/projects/prj_fpga_xilinx/prj_VE-XC6SLX9/xc6_prj/projects/vga_leds_seg7/ipcore_dir/tmp/_cg/clk_wiz_v3_6.asy -view all -origin_type imported
+Adding E:/projects/prj_fpga_xilinx/prj_VE-XC6SLX9/xc6_prj/projects/vga_leds_seg7/ipcore_dir/tmp/_cg/clk_wiz_v3_6.ucf -view all -origin_type created
+Adding E:/projects/prj_fpga_xilinx/prj_VE-XC6SLX9/xc6_prj/projects/vga_leds_seg7/ipcore_dir/tmp/_cg/clk_wiz_v3_6.v -view all -origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/projects/prj_fpga_xilinx/prj_VE-XC6SLX9/xc6_prj/projects/vga_leds_seg7/ip
+   core_dir/tmp/_cg/clk_wiz_v3_6.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding E:/projects/prj_fpga_xilinx/prj_VE-XC6SLX9/xc6_prj/projects/vga_leds_seg7/ipcore_dir/tmp/_cg/clk_wiz_v3_6.veo -view all -origin_type imported
+INFO:TclTasksC:2116 - The automatic calculation of top has been turned-off.
+   Please set the new top explicitly by running the "project set top" command.
+   To re-calculate the new top automatically, set the "Auto Implementation Top"
+   property to true.
+Top level has been set to "/clk_wiz_v3_6"
+Generating README file...
+Generating FLIST file...
+INFO:sim:948 - Finished FLIST file generation.
+Launching README viewer...
+Moving files to output directory...
+Finished moving files to output directory
+Saved CGP file for project 'coregen'.
