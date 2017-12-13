@@ -1,0 +1,89 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 100C Model Setup 'mypll_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -7.461
+TNS   : -43.659
+
+Type  : Slow 1200mV 100C Model Setup 'display:display_inst|hvsync:u_hvsync|hsync'
+Slack : -1.909
+TNS   : -23.608
+
+Type  : Slow 1200mV 100C Model Hold 'mypll_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.372
+TNS   : 0.000
+
+Type  : Slow 1200mV 100C Model Hold 'display:display_inst|hvsync:u_hvsync|hsync'
+Slack : 0.615
+TNS   : 0.000
+
+Type  : Slow 1200mV 100C Model Minimum Pulse Width 'display:display_inst|hvsync:u_hvsync|hsync'
+Slack : -1.285
+TNS   : -16.705
+
+Type  : Slow 1200mV 100C Model Minimum Pulse Width 'mypll_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 6.498
+TNS   : 0.000
+
+Type  : Slow 1200mV 100C Model Minimum Pulse Width 'CLK50MHZ'
+Slack : 9.879
+TNS   : 0.000
+
+Type  : Slow 1200mV -40C Model Setup 'mypll_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -6.363
+TNS   : -36.919
+
+Type  : Slow 1200mV -40C Model Setup 'display:display_inst|hvsync:u_hvsync|hsync'
+Slack : -1.570
+TNS   : -19.374
+
+Type  : Slow 1200mV -40C Model Hold 'mypll_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.137
+TNS   : 0.000
+
+Type  : Slow 1200mV -40C Model Hold 'display:display_inst|hvsync:u_hvsync|hsync'
+Slack : 0.524
+TNS   : 0.000
+
+Type  : Slow 1200mV -40C Model Minimum Pulse Width 'display:display_inst|hvsync:u_hvsync|hsync'
+Slack : -1.285
+TNS   : -16.705
+
+Type  : Slow 1200mV -40C Model Minimum Pulse Width 'mypll_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 6.460
+TNS   : 0.000
+
+Type  : Slow 1200mV -40C Model Minimum Pulse Width 'CLK50MHZ'
+Slack : 9.889
+TNS   : 0.000
+
+Type  : Fast 1200mV -40C Model Setup 'mypll_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -3.518
+TNS   : -20.764
+
+Type  : Fast 1200mV -40C Model Setup 'display:display_inst|hvsync:u_hvsync|hsync'
+Slack : -0.306
+TNS   : -3.475
+
+Type  : Fast 1200mV -40C Model Hold 'mypll_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.090
+TNS   : 0.000
+
+Type  : Fast 1200mV -40C Model Hold 'display:display_inst|hvsync:u_hvsync|hsync'
+Slack : 0.268
+TNS   : 0.000
+
+Type  : Fast 1200mV -40C Model Minimum Pulse Width 'display:display_inst|hvsync:u_hvsync|hsync'
+Slack : -1.000
+TNS   : -13.000
+
+Type  : Fast 1200mV -40C Model Minimum Pulse Width 'mypll_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 6.534
+TNS   : 0.000
+
+Type  : Fast 1200mV -40C Model Minimum Pulse Width 'CLK50MHZ'
+Slack : 9.629
+TNS   : 0.000
+
+------------------------------------------------------------
