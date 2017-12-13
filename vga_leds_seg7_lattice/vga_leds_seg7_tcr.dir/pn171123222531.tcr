@@ -1,0 +1,9 @@
+#Start recording tcl command: 11/23/2017 22:23:36
+#Project Location: E:/projects/prj_fpga_lattice/prj_VE-LCMXO27000HC/lcmx_prj/projects/vga_leds_seg7; Project name: vga_leds_seg7
+prj_project open "E:/projects/prj_fpga_lattice/prj_VE-LCMXO27000HC/lcmx_prj/projects/vga_leds_seg7/vga_leds_seg7.ldf"
+pgr_project open "E:/projects/prj_fpga_lattice/prj_VE-LCMXO27000HC/lcmx_prj/projects/vga_leds_seg7/impl1/impl1.xcf"
+pgr_program run
+pgr_program run
+pgr_project close
+prj_project close
+#Stop recording: 11/23/2017 22:25:31

@@ -1,0 +1,40 @@
+---------------------------------------------------
+Report for cell vga_leds
+   Instance path: vga_leds
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     184.00        100.0
+                                  LUT4	     293.00        100.0
+                                 IOBUF	         25        100.0
+                                PFUREG	        138        100.0
+                                RIPPLE	         34        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                              main_pll	          1         0.0
+                               display	          1        88.4
+---------------------------------------------------
+Report for cell main_pll
+   Instance path: vga_leds/main_pll_inst
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+---------------------------------------------------
+Report for cell display
+   Instance path: vga_leds/r_3__I_0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     162.67        88.4
+                                  LUT4	     292.00        99.7
+                                PFUREG	         98        71.0
+                                RIPPLE	         13        38.2
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                                hvsync	          1        21.0
+---------------------------------------------------
+Report for cell hvsync
+   Instance path: vga_leds/r_3__I_0/u_hvsync
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      38.67        21.0
+                                  LUT4	      63.33        21.6
+                                PFUREG	         25        18.1
+                                RIPPLE	         13        38.2

@@ -1,0 +1,396 @@
+<HTML>
+<HEAD><TITLE>Lattice Synthesis Timing Report</TITLE>
+<STYLE TYPE="text/css">
+<!--
+ body,pre{    font-family:'Courier New', monospace;    color: #000000;    font-size:88%;    background-color: #ffffff;}h1 {    font-weight: bold;    margin-top: 24px;    margin-bottom: 10px;    border-bottom: 3px solid #000;    font-size: 1em;}h2 {    font-weight: bold;    margin-top: 18px;    margin-bottom: 5px;    font-size: 0.90em;}h3 {    font-weight: bold;    margin-top: 12px;    margin-bottom: 5px;    font-size: 0.80em;}p {    font-size:78%;}P.Table {    margin-top: 4px;    margin-bottom: 4px;    margin-right: 4px;    margin-left: 4px;}table{    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    border-collapse: collapse;}th {    font-weight:bold;    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    text-align:left;    font-size:78%;}td {    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    font-size:78%;}a {    color:#013C9A;    text-decoration:none;}a:visited {    color:#013C9A;}a:hover, a:active {    text-decoration:underline;    color:#5BAFD4;}.pass{background-color: #00ff00;}.fail{background-color: #ff0000;}.comment{    font-size: 90%;    font-style: italic;}
+-->
+</STYLE>
+</HEAD>
+<PRE><A name="Map_Twr"></A><B><U><big>Lattice Synthesis Timing Report</big></U></B>
+--------------------------------------------------------------------------------
+Lattice Synthesis Timing Report, Version  
+Thu Nov 23 22:13:56 2017
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
+
+<A name="mtw1_ri"></A><B><U><big>Report Information</big></U></B>
+------------------
+Design:     vga_leds
+Constraint file:  
+Report level:    verbose report, limited to 3 items per constraint
+--------------------------------------------------------------------------------
+
+
+
+================================================================================
+Constraint: create_clock -period 5.000000 -name clk1 [get_nets \r_3__I_0/w_hsync]
+            239 items scored, 185 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Error:  The following path violates requirements by 2.784ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1S3BX    CK             \r_3__I_0/u_hvsync/line_count__i6  (from \r_3__I_0/w_hsync +)
+   Destination:    FD1S3DX    D              \r_3__I_0/u_hvsync/line_count__i10  (to \r_3__I_0/w_hsync +)
+
+   Delay:                   7.638ns  (28.7% logic, 71.3% route), 5 logic levels.
+
+ Constraint Details:
+
+      7.638ns data_path \r_3__I_0/u_hvsync/line_count__i6 to \r_3__I_0/u_hvsync/line_count__i10 violates
+      5.000ns delay constraint less
+      0.146ns L_S requirement (totaling 4.854ns) by 2.784ns
+
+ Path Details: \r_3__I_0/u_hvsync/line_count__i6 to \r_3__I_0/u_hvsync/line_count__i10
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.403             CK to Q              \r_3__I_0/u_hvsync/line_count__i6 (from \r_3__I_0/w_hsync)
+Route        12   e 1.432                                  \r_3__I_0/w_line_count[6]
+LUT4        ---     0.448              A to Z              \r_3__I_0/u_hvsync/i1937_2_lut_rep_101
+Route         3   e 1.051                                  \r_3__I_0/n4588
+LUT4        ---     0.448              A to Z              \r_3__I_0/u_hvsync/i2_4_lut
+Route         1   e 0.788                                  \r_3__I_0/u_hvsync/n3822
+LUT4        ---     0.448              D to Z              \r_3__I_0/u_hvsync/i1_4_lut_rep_88
+Route        12   e 1.384                                  \r_3__I_0/u_hvsync/n4575
+LUT4        ---     0.448              A to Z              \r_3__I_0/u_hvsync/i3963_2_lut_2_lut
+Route         1   e 0.788                                  \r_3__I_0/u_hvsync/n3839
+                  --------
+                    7.638  (28.7% logic, 71.3% route), 5 logic levels.
+
+
+Error:  The following path violates requirements by 2.784ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1S3BX    CK             \r_3__I_0/u_hvsync/line_count__i6  (from \r_3__I_0/w_hsync +)
+   Destination:    FD1S3BX    D              \r_3__I_0/u_hvsync/line_count__i9  (to \r_3__I_0/w_hsync +)
+
+   Delay:                   7.638ns  (28.7% logic, 71.3% route), 5 logic levels.
+
+ Constraint Details:
+
+      7.638ns data_path \r_3__I_0/u_hvsync/line_count__i6 to \r_3__I_0/u_hvsync/line_count__i9 violates
+      5.000ns delay constraint less
+      0.146ns L_S requirement (totaling 4.854ns) by 2.784ns
+
+ Path Details: \r_3__I_0/u_hvsync/line_count__i6 to \r_3__I_0/u_hvsync/line_count__i9
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.403             CK to Q              \r_3__I_0/u_hvsync/line_count__i6 (from \r_3__I_0/w_hsync)
+Route        12   e 1.432                                  \r_3__I_0/w_line_count[6]
+LUT4        ---     0.448              A to Z              \r_3__I_0/u_hvsync/i1937_2_lut_rep_101
+Route         3   e 1.051                                  \r_3__I_0/n4588
+LUT4        ---     0.448              A to Z              \r_3__I_0/u_hvsync/i2_4_lut
+Route         1   e 0.788                                  \r_3__I_0/u_hvsync/n3822
+LUT4        ---     0.448              D to Z              \r_3__I_0/u_hvsync/i1_4_lut_rep_88
+Route        12   e 1.384                                  \r_3__I_0/u_hvsync/n4575
+LUT4        ---     0.448              A to Z              \r_3__I_0/u_hvsync/i3965_2_lut_2_lut
+Route         1   e 0.788                                  \r_3__I_0/u_hvsync/n3840
+                  --------
+                    7.638  (28.7% logic, 71.3% route), 5 logic levels.
+
+
+Error:  The following path violates requirements by 2.784ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1S3BX    CK             \r_3__I_0/u_hvsync/line_count__i6  (from \r_3__I_0/w_hsync +)
+   Destination:    FD1S3DX    D              \r_3__I_0/u_hvsync/line_count__i8  (to \r_3__I_0/w_hsync +)
+
+   Delay:                   7.638ns  (28.7% logic, 71.3% route), 5 logic levels.
+
+ Constraint Details:
+
+      7.638ns data_path \r_3__I_0/u_hvsync/line_count__i6 to \r_3__I_0/u_hvsync/line_count__i8 violates
+      5.000ns delay constraint less
+      0.146ns L_S requirement (totaling 4.854ns) by 2.784ns
+
+ Path Details: \r_3__I_0/u_hvsync/line_count__i6 to \r_3__I_0/u_hvsync/line_count__i8
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.403             CK to Q              \r_3__I_0/u_hvsync/line_count__i6 (from \r_3__I_0/w_hsync)
+Route        12   e 1.432                                  \r_3__I_0/w_line_count[6]
+LUT4        ---     0.448              A to Z              \r_3__I_0/u_hvsync/i1937_2_lut_rep_101
+Route         3   e 1.051                                  \r_3__I_0/n4588
+LUT4        ---     0.448              A to Z              \r_3__I_0/u_hvsync/i2_4_lut
+Route         1   e 0.788                                  \r_3__I_0/u_hvsync/n3822
+LUT4        ---     0.448              D to Z              \r_3__I_0/u_hvsync/i1_4_lut_rep_88
+Route        12   e 1.384                                  \r_3__I_0/u_hvsync/n4575
+LUT4        ---     0.448              A to Z              \r_3__I_0/u_hvsync/i3967_2_lut_2_lut
+Route         1   e 0.788                                  \r_3__I_0/u_hvsync/n3845
+                  --------
+                    7.638  (28.7% logic, 71.3% route), 5 logic levels.
+
+Warning: 7.784 ns is the maximum delay for this constraint.
+
+
+
+================================================================================
+Constraint: create_clock -period 5.000000 -name clk0 [get_nets w_clk_video]
+            2509 items scored, 2509 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Error:  The following path violates requirements by 11.036ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1S3DX    CK             \r_3__I_0/u_hvsync/pixel_count_305_306__i1  (from w_clk_video +)
+   Destination:    FD1S3AX    D              \r_3__I_0/color_fixed_i0  (to w_clk_video +)
+
+   Delay:                  15.890ns  (30.6% logic, 69.4% route), 12 logic levels.
+
+ Constraint Details:
+
+     15.890ns data_path \r_3__I_0/u_hvsync/pixel_count_305_306__i1 to \r_3__I_0/color_fixed_i0 violates
+      5.000ns delay constraint less
+      0.146ns L_S requirement (totaling 4.854ns) by 11.036ns
+
+ Path Details: \r_3__I_0/u_hvsync/pixel_count_305_306__i1 to \r_3__I_0/color_fixed_i0
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.403             CK to Q              \r_3__I_0/u_hvsync/pixel_count_305_306__i1 (from w_clk_video)
+Route         4   e 1.168                                  \r_3__I_0/u_hvsync/w_pixel_count[0]
+LUT4        ---     0.448              B to Z              \r_3__I_0/u_hvsync/i1_2_lut_rep_109
+Route         5   e 1.174                                  \r_3__I_0/n4596
+LUT4        ---     0.448              A to Z              \r_3__I_0/i2_3_lut_rep_92_4_lut
+Route         8   e 1.287                                  \r_3__I_0/n4579
+LUT4        ---     0.448              A to Z              \r_3__I_0/i443_2_lut_rep_83_3_lut
+Route         3   e 1.051                                  \r_3__I_0/n4570
+LUT4        ---     0.448              C to Z              \r_3__I_0/i1_4_lut_4_lut_adj_23
+Route         5   e 1.174                                  \r_3__I_0/vl_seg_line2
+LUT4        ---     0.448              B to Z              \r_3__I_0/i3693_4_lut
+Route         1   e 0.788                                  \r_3__I_0/n4035
+LUT4        ---     0.448              D to Z              \r_3__I_0/i3727_4_lut
+Route         1   e 0.788                                  \r_3__I_0/n4069
+LUT4        ---     0.448              D to Z              \r_3__I_0/i3945_4_lut
+Route         3   e 1.051                                  \r_3__I_0/n4226
+LUT4        ---     0.448              C to Z              \r_3__I_0/i3946_2_lut_rep_62_3_lut_4_lut
+Route         2   e 0.954                                  \r_3__I_0/n4549
+MUXL5       ---     0.212             SD to Z              \r_3__I_0/mux_141_i1
+Route         1   e 0.788                                  \r_3__I_0/n1203
+LUT4        ---     0.448              D to Z              \r_3__I_0/color_2__I_4_i1_3_lut_4_lut
+Route         1   e 0.020                                  \r_3__I_0/color_2__N_199[0]
+MUXL5       ---     0.212           ALUT to Z              \r_3__I_0/color_2__I_0_i1
+Route         1   e 0.788                                  \r_3__I_0/color[0]
+                  --------
+                   15.890  (30.6% logic, 69.4% route), 12 logic levels.
+
+
+Error:  The following path violates requirements by 11.036ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1S3DX    CK             \r_3__I_0/u_hvsync/pixel_count_305_306__i2  (from w_clk_video +)
+   Destination:    FD1S3AX    D              \r_3__I_0/color_fixed_i0  (to w_clk_video +)
+
+   Delay:                  15.890ns  (30.6% logic, 69.4% route), 12 logic levels.
+
+ Constraint Details:
+
+     15.890ns data_path \r_3__I_0/u_hvsync/pixel_count_305_306__i2 to \r_3__I_0/color_fixed_i0 violates
+      5.000ns delay constraint less
+      0.146ns L_S requirement (totaling 4.854ns) by 11.036ns
+
+ Path Details: \r_3__I_0/u_hvsync/pixel_count_305_306__i2 to \r_3__I_0/color_fixed_i0
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.403             CK to Q              \r_3__I_0/u_hvsync/pixel_count_305_306__i2 (from w_clk_video)
+Route         4   e 1.168                                  \r_3__I_0/u_hvsync/w_pixel_count[1]
+LUT4        ---     0.448              A to Z              \r_3__I_0/u_hvsync/i1_2_lut_rep_109
+Route         5   e 1.174                                  \r_3__I_0/n4596
+LUT4        ---     0.448              A to Z              \r_3__I_0/i2_3_lut_rep_92_4_lut
+Route         8   e 1.287                                  \r_3__I_0/n4579
+LUT4        ---     0.448              A to Z              \r_3__I_0/i443_2_lut_rep_83_3_lut
+Route         3   e 1.051                                  \r_3__I_0/n4570
+LUT4        ---     0.448              C to Z              \r_3__I_0/i1_4_lut_4_lut_adj_23
+Route         5   e 1.174                                  \r_3__I_0/vl_seg_line2
+LUT4        ---     0.448              B to Z              \r_3__I_0/i3693_4_lut
+Route         1   e 0.788                                  \r_3__I_0/n4035
+LUT4        ---     0.448              D to Z              \r_3__I_0/i3727_4_lut
+Route         1   e 0.788                                  \r_3__I_0/n4069
+LUT4        ---     0.448              D to Z              \r_3__I_0/i3945_4_lut
+Route         3   e 1.051                                  \r_3__I_0/n4226
+LUT4        ---     0.448              C to Z              \r_3__I_0/i3946_2_lut_rep_62_3_lut_4_lut
+Route         2   e 0.954                                  \r_3__I_0/n4549
+MUXL5       ---     0.212             SD to Z              \r_3__I_0/mux_141_i1
+Route         1   e 0.788                                  \r_3__I_0/n1203
+LUT4        ---     0.448              D to Z              \r_3__I_0/color_2__I_4_i1_3_lut_4_lut
+Route         1   e 0.020                                  \r_3__I_0/color_2__N_199[0]
+MUXL5       ---     0.212           ALUT to Z              \r_3__I_0/color_2__I_0_i1
+Route         1   e 0.788                                  \r_3__I_0/color[0]
+                  --------
+                   15.890  (30.6% logic, 69.4% route), 12 logic levels.
+
+
+Error:  The following path violates requirements by 10.870ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1S3DX    CK             \r_3__I_0/u_hvsync/pixel_count_305_306__i1  (from w_clk_video +)
+   Destination:    FD1S3AX    D              \r_3__I_0/color_fixed_i0  (to w_clk_video +)
+
+   Delay:                  15.724ns  (30.9% logic, 69.1% route), 12 logic levels.
+
+ Constraint Details:
+
+     15.724ns data_path \r_3__I_0/u_hvsync/pixel_count_305_306__i1 to \r_3__I_0/color_fixed_i0 violates
+      5.000ns delay constraint less
+      0.146ns L_S requirement (totaling 4.854ns) by 10.870ns
+
+ Path Details: \r_3__I_0/u_hvsync/pixel_count_305_306__i1 to \r_3__I_0/color_fixed_i0
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.403             CK to Q              \r_3__I_0/u_hvsync/pixel_count_305_306__i1 (from w_clk_video)
+Route         4   e 1.168                                  \r_3__I_0/u_hvsync/w_pixel_count[0]
+LUT4        ---     0.448              B to Z              \r_3__I_0/u_hvsync/i1_2_lut_rep_109
+Route         5   e 1.174                                  \r_3__I_0/n4596
+LUT4        ---     0.448              A to Z              \r_3__I_0/i2_3_lut_rep_92_4_lut
+Route         8   e 1.287                                  \r_3__I_0/n4579
+LUT4        ---     0.448              A to Z              \r_3__I_0/i443_2_lut_rep_83_3_lut
+Route         3   e 1.051                                  \r_3__I_0/n4570
+LUT4        ---     0.448              C to Z              \r_3__I_0/i1_4_lut_4_lut_adj_23
+Route         5   e 1.174                                  \r_3__I_0/vl_seg_line2
+LUT4        ---     0.448              B to Z              \r_3__I_0/i3693_4_lut
+Route         1   e 0.788                                  \r_3__I_0/n4035
+LUT4        ---     0.448              D to Z              \r_3__I_0/i3727_4_lut
+Route         1   e 0.788                                  \r_3__I_0/n4069
+LUT4        ---     0.448              D to Z              \r_3__I_0/i3945_4_lut
+Route         3   e 1.051                                  \r_3__I_0/n4226
+LUT4        ---     0.448              D to Z              \r_3__I_0/i3954_2_lut_rep_61_3_lut_4_lut
+Route         1   e 0.788                                  \r_3__I_0/n4548
+MUXL5       ---     0.212             SD to Z              \r_3__I_0/mux_200_i1
+Route         1   e 0.788                                  \r_3__I_0/n2108
+LUT4        ---     0.448              A to Z              \r_3__I_0/mux_201_i1_3_lut
+Route         1   e 0.020                                  \r_3__I_0/n2112
+MUXL5       ---     0.212           BLUT to Z              \r_3__I_0/color_2__I_0_i1
+Route         1   e 0.788                                  \r_3__I_0/color[0]
+                  --------
+                   15.724  (30.9% logic, 69.1% route), 12 logic levels.
+
+Warning: 16.036 ns is the maximum delay for this constraint.
+
+
+<A name="mtw1_rs"></A><B><U><big>Timing Report Summary</big></U></B>
+--------------
+--------------------------------------------------------------------------------
+Constraint                              |   Constraint|       Actual|Levels
+--------------------------------------------------------------------------------
+                                        |             |             |
+create_clock -period 5.000000 -name     |             |             |
+clk1 [get_nets \r_3__I_0/w_hsync]       |     5.000 ns|     7.784 ns|     5 *
+                                        |             |             |
+create_clock -period 5.000000 -name     |             |             |
+clk0 [get_nets w_clk_video]             |     5.000 ns|    16.036 ns|    12 *
+                                        |             |             |
+--------------------------------------------------------------------------------
+
+
+2 constraints not met.
+
+--------------------------------------------------------------------------------
+Critical Nets                           |   Loads|  Errors| % of total
+--------------------------------------------------------------------------------
+\r_3__I_0/color[0]                      |       1|    1067|     39.61%
+                                        |        |        |
+\r_3__I_0/color[1]                      |       1|    1060|     39.35%
+                                        |        |        |
+\r_3__I_0/n2112                         |       1|     544|     20.19%
+                                        |        |        |
+\r_3__I_0/n2111                         |       1|     543|     20.16%
+                                        |        |        |
+\r_3__I_0/color_2__N_199[0]             |       1|     523|     19.41%
+                                        |        |        |
+\r_3__I_0/color_2__N_199[1]             |       1|     517|     19.19%
+                                        |        |        |
+\r_3__I_0/n2107                         |       1|     459|     17.04%
+                                        |        |        |
+\r_3__I_0/n2108                         |       1|     458|     17.00%
+                                        |        |        |
+\r_3__I_0/n4579                         |       8|     445|     16.52%
+                                        |        |        |
+\r_3__I_0/n4226                         |       3|     428|     15.89%
+                                        |        |        |
+\r_3__I_0/n1203                         |       1|     332|     12.32%
+                                        |        |        |
+\r_3__I_0/n1202                         |       1|     326|     12.10%
+                                        |        |        |
+\r_3__I_0/w_pixel_count[5]              |      40|     299|     11.10%
+                                        |        |        |
+\r_3__I_0/n4069                         |       1|     296|     10.99%
+                                        |        |        |
+--------------------------------------------------------------------------------
+
+
+<A name="mtw1_ts"></A><B><U><big>Timing summary:</big></U></B>
+---------------
+
+Timing errors: 2694  Score: 12998452
+
+Constraints cover  3968 paths, 516 nets, and 1194 connections (75.4% coverage)
+
+
+Peak memory: 75722752 bytes, TRCE: 2424832 bytes, DLYMAN: 0 bytes
+CPU_TIME_REPORT: 0 secs 
+
+
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+</PRE></FONT>
+</BODY>
+</HTML>

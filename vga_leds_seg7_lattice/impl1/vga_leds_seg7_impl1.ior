@@ -1,0 +1,53 @@
+Loading design for application iotiming from file vga_leds_seg7_impl1.ncd.
+Design name: vga_leds
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO2-7000HC
+Package:     TQFP144
+Performance: 6
+Package Status:                     Final          Version 1.39.
+Performance Hardware Data Status:   Final          Version 34.4.
+Loading design for application iotiming from file vga_leds_seg7_impl1.ncd.
+Design name: vga_leds
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO2-7000HC
+Package:     TQFP144
+Performance: M
+Package Status:                     Final          Version 1.39.
+Performance Hardware Data Status:   Final          Version 34.4.
+// Design: vga_leds
+// Package: TQFP144
+// ncd File: vga_leds_seg7_impl1.ncd
+// Version: Diamond (64-bit) 3.10.0.111.2
+// Written on Thu Nov 23 22:17:54 2017
+// M: Minimum Performance Grade
+// iotiming vga_leds_seg7_impl1.ncd vga_leds_seg7_impl1.prf -gui
+
+I/O Timing Report (All units are in ns)
+
+Worst Case Results across Performance Grades (M, 6, 5):
+
+// Input Setup and Hold Times
+
+Port  Clock    Edge  Setup Performance_Grade  Hold Performance_Grade
+----------------------------------------------------------------------
+KEY1  CLK50MHZ R     1.594      5      -0.029     M
+
+
+// Clock to Output Delay
+
+Port  Clock    Edge  Max_Delay Performance_Grade  Min_Delay Performance_Grade
+------------------------------------------------------------------------
+b[0]  CLK50MHZ R    11.780         5        3.580          M
+b[1]  CLK50MHZ R    12.187         5        3.665          M
+g[0]  CLK50MHZ R    11.674         5        3.509          M
+g[1]  CLK50MHZ R    11.492         5        3.466          M
+g[2]  CLK50MHZ R    10.953         5        3.306          M
+g[3]  CLK50MHZ R    10.953         5        3.306          M
+hsync CLK50MHZ R    10.236         5        3.321          M
+r[0]  CLK50MHZ R    10.948         5        3.342          M
+r[1]  CLK50MHZ R    10.638         5        3.342          M
+r[2]  CLK50MHZ R    10.571         5        3.317          M
+r[3]  CLK50MHZ R    10.571         5        3.317          M
+vsync CLK50MHZ R    10.642         5        3.466          M

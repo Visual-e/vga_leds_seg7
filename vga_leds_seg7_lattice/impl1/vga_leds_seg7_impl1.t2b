@@ -1,0 +1,5 @@
+
+
+-g RamCfg:Reset
+
+-path "E:/projects/prj_fpga_lattice/prj_VE-LCMXO27000HC/lcmx_prj/projects/vga_leds_seg7"  

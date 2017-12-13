@@ -1,0 +1,361 @@
+
+Loading design for application trce from file vga_leds_seg7_impl1_map.ncd.
+Design name: vga_leds
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO2-7000HC
+Package:     TQFP144
+Performance: 5
+Loading device for application trce from file 'xo2c7000.nph' in environment: D:/dev/lattice/lscc/diamond/3.10_x64/ispfpga.
+Package Status:                     Final          Version 1.39.
+Performance Hardware Data Status:   Final          Version 34.4.
+Setup and Hold Report
+
+--------------------------------------------------------------------------------
+Lattice TRACE Report - Setup, Version Diamond (64-bit) 3.10.0.111.2
+Thu Nov 23 22:17:32 2017
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
+
+Report Information
+------------------
+Command line:    trce -v 1 -gt -mapchkpnt 0 -sethld -o vga_leds_seg7_impl1.tw1 -gui vga_leds_seg7_impl1_map.ncd vga_leds_seg7_impl1.prf 
+Design file:     vga_leds_seg7_impl1_map.ncd
+Preference file: vga_leds_seg7_impl1.prf
+Device,speed:    LCMXO2-7000HC,5
+Report level:    verbose report, limited to 1 item per preference
+--------------------------------------------------------------------------------
+
+BLOCK ASYNCPATHS
+BLOCK RESETPATHS
+--------------------------------------------------------------------------------
+
+
+
+================================================================================
+Preference: FREQUENCY NET "w_clk_video" 75.000000 MHz ;
+            4096 items scored, 43 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Error: The following path exceeds requirements by 2.149ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              r_3__I_0/u_hvsync/pixel_count_305_306__i2  (from w_clk_video +)
+   Destination:    FF         Data in        r_3__I_0/color_fixed_i0  (to w_clk_video +)
+
+   Delay:              15.332ns  (32.8% logic, 67.2% route), 11 logic levels.
+
+ Constraint Details:
+
+     15.332ns physical path delay r_3__I_0/u_hvsync/SLICE_79 to r_3__I_0/SLICE_35 exceeds
+     13.333ns delay constraint less
+      0.150ns DIN_SET requirement (totaling 13.183ns) by 2.149ns
+
+ Physical Path Details:
+
+      Data path r_3__I_0/u_hvsync/SLICE_79 to r_3__I_0/SLICE_35:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.409 */SLICE_79.CLK to *c/SLICE_79.Q1 r_3__I_0/u_hvsync/SLICE_79 (from w_clk_video)
+ROUTE         4   e 1.030 *c/SLICE_79.Q1 to */SLICE_142.A1 r_3__I_0/u_hvsync/w_pixel_count_1
+CTOF_DEL    ---     0.452 */SLICE_142.A1 to */SLICE_142.F1 r_3__I_0/SLICE_142
+ROUTE         5   e 1.030 */SLICE_142.F1 to */SLICE_132.A1 r_3__I_0/n4596
+CTOF_DEL    ---     0.452 */SLICE_132.A1 to */SLICE_132.F1 r_3__I_0/SLICE_132
+ROUTE         8   e 1.030 */SLICE_132.F1 to */SLICE_123.A0 r_3__I_0/n4579
+CTOF_DEL    ---     0.452 */SLICE_123.A0 to */SLICE_123.F0 r_3__I_0/SLICE_123
+ROUTE         3   e 1.030 */SLICE_123.F0 to */SLICE_137.B0 r_3__I_0/n4564
+CTOF_DEL    ---     0.452 */SLICE_137.B0 to */SLICE_137.F0 r_3__I_0/SLICE_137
+ROUTE         2   e 1.030 */SLICE_137.F0 to */SLICE_120.A1 r_3__I_0/vl_seg_line1
+CTOF_DEL    ---     0.452 */SLICE_120.A1 to */SLICE_120.F1 r_3__I_0/SLICE_120
+ROUTE         1   e 1.030 */SLICE_120.F1 to */SLICE_161.D0 r_3__I_0/n4035
+CTOF_DEL    ---     0.452 */SLICE_161.D0 to */SLICE_161.F0 r_3__I_0/SLICE_161
+ROUTE         1   e 1.030 */SLICE_161.F0 to */SLICE_134.D1 r_3__I_0/n4069
+CTOF_DEL    ---     0.452 */SLICE_134.D1 to */SLICE_134.F1 r_3__I_0/SLICE_134
+ROUTE         3   e 1.030 */SLICE_134.F1 to */SLICE_148.C1 r_3__I_0/n4226
+CTOF_DEL    ---     0.452 */SLICE_148.C1 to */SLICE_148.F1 r_3__I_0/SLICE_148
+ROUTE         2   e 1.030 */SLICE_148.F1 to *1/SLICE_96.M1 r_3__I_0/n4549
+MTOOFX_DEL  ---     0.345 *1/SLICE_96.M1 to *SLICE_96.OFX1 r_3__I_0/mux_140_i1/SLICE_96
+ROUTE         1   e 1.030 *SLICE_96.OFX1 to *0/SLICE_35.D1 r_3__I_0/n1203
+CTOOFX_DEL  ---     0.661 *0/SLICE_35.D1 to *SLICE_35.OFX0 r_3__I_0/SLICE_35
+ROUTE         1   e 0.001 *SLICE_35.OFX0 to */SLICE_35.DI0 r_3__I_0/color_0 (to w_clk_video)
+                  --------
+                   15.332   (32.8% logic, 67.2% route), 11 logic levels.
+
+Warning:  64.591MHz is the maximum frequency for this preference.
+
+
+================================================================================
+Preference: FREQUENCY NET "CLK50MHZ_c" 50.000000 MHz ;
+            0 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+Report Summary
+--------------
+----------------------------------------------------------------------------
+Preference                              |   Constraint|       Actual|Levels
+----------------------------------------------------------------------------
+                                        |             |             |
+FREQUENCY NET "w_clk_video" 75.000000   |             |             |
+MHz ;                                   |   75.000 MHz|   64.591 MHz|  11 *
+                                        |             |             |
+FREQUENCY NET "CLK50MHZ_c" 50.000000    |             |             |
+MHz ;                                   |            -|            -|   0  
+                                        |             |             |
+----------------------------------------------------------------------------
+
+
+1 preference(marked by "*" above) not met.
+
+----------------------------------------------------------------------------
+Critical Nets                           |   Loads|  Errors| % of total
+----------------------------------------------------------------------------
+r_3__I_0/color_0                        |       1|      37|     86.05%
+                                        |        |        |
+r_3__I_0/n4069                          |       1|      32|     74.42%
+                                        |        |        |
+r_3__I_0/n4226                          |       3|      32|     74.42%
+                                        |        |        |
+r_3__I_0/n4579                          |       8|      32|     74.42%
+                                        |        |        |
+r_3__I_0/n4035                          |       1|      28|     65.12%
+                                        |        |        |
+r_3__I_0/n4596                          |       5|      28|     65.12%
+                                        |        |        |
+r_3__I_0/n2108                          |       1|      21|     48.84%
+                                        |        |        |
+r_3__I_0/n4549                          |       2|      18|     41.86%
+                                        |        |        |
+r_3__I_0/u_hvsync/w_pixel_count_1       |       4|      14|     32.56%
+                                        |        |        |
+r_3__I_0/u_hvsync/w_pixel_count_0       |       4|      14|     32.56%
+                                        |        |        |
+r_3__I_0/n4548                          |       1|      14|     32.56%
+                                        |        |        |
+r_3__I_0/n1203                          |       1|      14|     32.56%
+                                        |        |        |
+r_3__I_0/vl_seg_line1                   |       2|      12|     27.91%
+                                        |        |        |
+r_3__I_0/n4564                          |       3|      12|     27.91%
+                                        |        |        |
+r_3__I_0/n4570                          |       3|      12|     27.91%
+                                        |        |        |
+r_3__I_0/vl_seg_line2                   |       5|      12|     27.91%
+                                        |        |        |
+r_3__I_0/n16                            |       3|      11|     25.58%
+                                        |        |        |
+r_3__I_0/n4578                          |       2|      11|     25.58%
+                                        |        |        |
+r_3__I_0/n4565                          |       6|       9|     20.93%
+                                        |        |        |
+r_3__I_0/n4449                          |       1|       7|     16.28%
+                                        |        |        |
+r_3__I_0/n4446                          |       1|       7|     16.28%
+                                        |        |        |
+r_3__I_0/n1875                          |       1|       7|     16.28%
+                                        |        |        |
+r_3__I_0/color_1                        |       1|       6|     13.95%
+                                        |        |        |
+r_3__I_0/n2111                          |       1|       6|     13.95%
+                                        |        |        |
+r_3__I_0/n2084                          |       1|       5|     11.63%
+                                        |        |        |
+r_3__I_0/w_pixel_count_4                |      15|       5|     11.63%
+                                        |        |        |
+r_3__I_0/w_pixel_count_3                |      13|       5|     11.63%
+                                        |        |        |
+r_3__I_0/w_pixel_count_2                |       8|       5|     11.63%
+                                        |        |        |
+----------------------------------------------------------------------------
+
+
+Clock Domains Analysis
+------------------------
+
+Found 4 clocks:
+
+Clock Domain: r_3__I_0/w_hsync   Source: r_3__I_0/SLICE_80.Q0   Loads: 8
+   No transfer within this clock domain is found
+
+Clock Domain: main_pll_inst/CLKFB_t   Source: main_pll_inst/PLLInst_0.CLKINTFB   Loads: 1
+   No transfer within this clock domain is found
+
+Clock Domain: CLK50MHZ_c   Source: CLK50MHZ.PAD   Loads: 1
+   No transfer within this clock domain is found
+
+Clock Domain: w_clk_video   Source: main_pll_inst/PLLInst_0.CLKOP   Loads: 69
+   Covered under: FREQUENCY NET "w_clk_video" 75.000000 MHz ;
+
+   Data transfers from:
+   Clock Domain: r_3__I_0/w_hsync   Source: r_3__I_0/SLICE_80.Q0
+      Covered under: FREQUENCY NET "w_clk_video" 75.000000 MHz ;   Transfers: 2
+
+   Clock Domain: r_3__I_0/w_hsync   Source: r_3__I_0/SLICE_80.Q0
+      Covered under: FREQUENCY NET "w_clk_video" 75.000000 MHz ;   Transfers: 4
+
+   Clock Domain: r_3__I_0/w_hsync   Source: r_3__I_0/SLICE_80.Q0
+      Covered under: FREQUENCY NET "w_clk_video" 75.000000 MHz ;   Transfers: 2
+
+   Clock Domain: r_3__I_0/w_hsync   Source: r_3__I_0/SLICE_80.Q0
+      Covered under: FREQUENCY NET "w_clk_video" 75.000000 MHz ;   Transfers: 2
+
+   Clock Domain: r_3__I_0/w_hsync   Source: r_3__I_0/SLICE_80.Q0
+      Covered under: FREQUENCY NET "w_clk_video" 75.000000 MHz ;   Transfers: 1
+
+   Clock Domain: r_3__I_0/w_hsync   Source: r_3__I_0/SLICE_80.Q0
+      Covered under: FREQUENCY NET "w_clk_video" 75.000000 MHz ;   Transfers: 2
+
+
+Timing summary (Setup):
+---------------
+
+Timing errors: 43  Score: 33099
+Cumulative negative slack: 33099
+
+Constraints cover 5233 paths, 3 nets, and 1298 connections (90.64% coverage)
+
+--------------------------------------------------------------------------------
+Lattice TRACE Report - Hold, Version Diamond (64-bit) 3.10.0.111.2
+Thu Nov 23 22:17:32 2017
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
+
+Report Information
+------------------
+Command line:    trce -v 1 -gt -mapchkpnt 0 -sethld -o vga_leds_seg7_impl1.tw1 -gui vga_leds_seg7_impl1_map.ncd vga_leds_seg7_impl1.prf 
+Design file:     vga_leds_seg7_impl1_map.ncd
+Preference file: vga_leds_seg7_impl1.prf
+Device,speed:    LCMXO2-7000HC,M
+Report level:    verbose report, limited to 1 item per preference
+--------------------------------------------------------------------------------
+
+BLOCK ASYNCPATHS
+BLOCK RESETPATHS
+--------------------------------------------------------------------------------
+
+
+
+================================================================================
+Preference: FREQUENCY NET "w_clk_video" 75.000000 MHz ;
+            4096 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Passed: The following path meets requirements by 0.351ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              r_3__I_0/r_vsync_212  (from w_clk_video +)
+   Destination:    FF         Data in        r_3__I_0/r_vsync__213  (to w_clk_video +)
+
+   Delay:               0.332ns  (40.1% logic, 59.9% route), 1 logic levels.
+
+ Constraint Details:
+
+      0.332ns physical path delay r_3__I_0/SLICE_90 to r_3__I_0/SLICE_90 meets
+     -0.019ns M_HLD and
+      0.000ns delay constraint requirement (totaling -0.019ns) by 0.351ns
+
+ Physical Path Details:
+
+      Data path r_3__I_0/SLICE_90 to r_3__I_0/SLICE_90:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.133 */SLICE_90.CLK to *0/SLICE_90.Q0 r_3__I_0/SLICE_90 (from w_clk_video)
+ROUTE         3   e 0.199 *0/SLICE_90.Q0 to *0/SLICE_90.M1 vsync_c (to w_clk_video)
+                  --------
+                    0.332   (40.1% logic, 59.9% route), 1 logic levels.
+
+
+================================================================================
+Preference: FREQUENCY NET "CLK50MHZ_c" 50.000000 MHz ;
+            0 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+Report Summary
+--------------
+----------------------------------------------------------------------------
+Preference(MIN Delays)                  |   Constraint|       Actual|Levels
+----------------------------------------------------------------------------
+                                        |             |             |
+FREQUENCY NET "w_clk_video" 75.000000   |             |             |
+MHz ;                                   |     0.000 ns|     0.351 ns|   1  
+                                        |             |             |
+FREQUENCY NET "CLK50MHZ_c" 50.000000    |             |             |
+MHz ;                                   |            -|            -|   0  
+                                        |             |             |
+----------------------------------------------------------------------------
+
+
+All preferences were met.
+
+
+Clock Domains Analysis
+------------------------
+
+Found 4 clocks:
+
+Clock Domain: main_pll_inst/CLKFB_t   Source: main_pll_inst/PLLInst_0.CLKINTFB   Loads: 1
+   No transfer within this clock domain is found
+
+Clock Domain: r_3__I_0/w_hsync   Source: r_3__I_0/SLICE_80.Q0   Loads: 8
+   No transfer within this clock domain is found
+
+Clock Domain: CLK50MHZ_c   Source: CLK50MHZ.PAD   Loads: 1
+   No transfer within this clock domain is found
+
+Clock Domain: w_clk_video   Source: main_pll_inst/PLLInst_0.CLKOP   Loads: 69
+   Covered under: FREQUENCY NET "w_clk_video" 75.000000 MHz ;
+
+   Data transfers from:
+   Clock Domain: r_3__I_0/w_hsync   Source: r_3__I_0/SLICE_80.Q0
+      Covered under: FREQUENCY NET "w_clk_video" 75.000000 MHz ;   Transfers: 2
+
+   Clock Domain: r_3__I_0/w_hsync   Source: r_3__I_0/SLICE_80.Q0
+      Covered under: FREQUENCY NET "w_clk_video" 75.000000 MHz ;   Transfers: 2
+
+   Clock Domain: r_3__I_0/w_hsync   Source: r_3__I_0/SLICE_80.Q0
+      Covered under: FREQUENCY NET "w_clk_video" 75.000000 MHz ;   Transfers: 2
+
+   Clock Domain: r_3__I_0/w_hsync   Source: r_3__I_0/SLICE_80.Q0
+      Covered under: FREQUENCY NET "w_clk_video" 75.000000 MHz ;   Transfers: 2
+
+   Clock Domain: r_3__I_0/w_hsync   Source: r_3__I_0/SLICE_80.Q0
+      Covered under: FREQUENCY NET "w_clk_video" 75.000000 MHz ;   Transfers: 2
+
+   Clock Domain: r_3__I_0/w_hsync   Source: r_3__I_0/SLICE_80.Q0
+      Covered under: FREQUENCY NET "w_clk_video" 75.000000 MHz ;   Transfers: 1
+
+   Clock Domain: r_3__I_0/w_hsync   Source: r_3__I_0/SLICE_80.Q0
+      Covered under: FREQUENCY NET "w_clk_video" 75.000000 MHz ;   Transfers: 2
+
+
+Timing summary (Hold):
+---------------
+
+Timing errors: 0  Score: 0
+Cumulative negative slack: 0
+
+Constraints cover 5233 paths, 3 nets, and 1299 connections (90.71% coverage)
+
+
+
+Timing summary (Setup and Hold):
+---------------
+
+Timing errors: 43 (setup), 0 (hold)
+Score: 33099 (setup), 0 (hold)
+Cumulative negative slack: 33099 (33099+0)
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+

@@ -1,0 +1,681 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliMessageLog>
+    <Task name="MapVerilogSimFile">
+        <Message>
+            <ID>35400250</ID>
+            <Severity>Info</Severity>
+            <Dynamic>0</Dynamic>
+        </Message>
+    </Task>
+    <Task name="MapVHDLSimFile">
+        <Message>
+            <ID>35400250</ID>
+            <Severity>Info</Severity>
+            <Dynamic>0</Dynamic>
+        </Message>
+    </Task>
+    <Task name="Lattice_Synthesis">
+        <Message>
+            <ID>35002000</ID>
+            <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>35001781</ID>
+            <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>35901875</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v(9): </Dynamic>
+            <Dynamic>NUM_RED_LEDS</Dynamic>
+            <Navigation>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v</Navigation>
+            <Navigation>9</Navigation>
+        </Message>
+        <Message>
+            <ID>35901875</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v(10): </Dynamic>
+            <Dynamic>NUM_GREEN_LEDS</Dynamic>
+            <Navigation>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v</Navigation>
+            <Navigation>10</Navigation>
+        </Message>
+        <Message>
+            <ID>35901875</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v(11): </Dynamic>
+            <Dynamic>NUM_SEGMENTS</Dynamic>
+            <Navigation>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v</Navigation>
+            <Navigation>11</Navigation>
+        </Message>
+        <Message>
+            <ID>35901875</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v(32): </Dynamic>
+            <Dynamic>r_hsync</Dynamic>
+            <Navigation>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v</Navigation>
+            <Navigation>32</Navigation>
+        </Message>
+        <Message>
+            <ID>35901875</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v(33): </Dynamic>
+            <Dynamic>r_vsync</Dynamic>
+            <Navigation>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v</Navigation>
+            <Navigation>33</Navigation>
+        </Message>
+        <Message>
+            <ID>35901875</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v(34): </Dynamic>
+            <Dynamic>red_word</Dynamic>
+            <Navigation>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v</Navigation>
+            <Navigation>34</Navigation>
+        </Message>
+        <Message>
+            <ID>35901875</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v(35): </Dynamic>
+            <Dynamic>green_word</Dynamic>
+            <Navigation>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v</Navigation>
+            <Navigation>35</Navigation>
+        </Message>
+        <Message>
+            <ID>35901875</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v(36): </Dynamic>
+            <Dynamic>blue_word</Dynamic>
+            <Navigation>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v</Navigation>
+            <Navigation>36</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/vga_leds.v(2): </Dynamic>
+            <Dynamic>vga_leds</Dynamic>
+            <Navigation>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/vga_leds.v</Navigation>
+            <Navigation>2</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/main_pll.v(8): </Dynamic>
+            <Dynamic>main_pll</Dynamic>
+            <Navigation>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/main_pll.v</Navigation>
+            <Navigation>8</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>D:/dev/lattice/lscc/diamond/3.10_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v(1124): </Dynamic>
+            <Dynamic>VLO</Dynamic>
+            <Navigation>D:/dev/lattice/lscc/diamond/3.10_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v</Navigation>
+            <Navigation>1124</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>D:/dev/lattice/lscc/diamond/3.10_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v(1730): </Dynamic>
+            <Dynamic>EHXPLLJ_renamed_due_excessive_length_1</Dynamic>
+            <Navigation>D:/dev/lattice/lscc/diamond/3.10_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v</Navigation>
+            <Navigation>1730</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v(5): </Dynamic>
+            <Dynamic>display</Dynamic>
+            <Navigation>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v</Navigation>
+            <Navigation>5</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/hvsync.v(6): </Dynamic>
+            <Dynamic>hvsync</Dynamic>
+            <Navigation>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/hvsync.v</Navigation>
+            <Navigation>6</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v(78): </Dynamic>
+            <Dynamic>32</Dynamic>
+            <Dynamic>4</Dynamic>
+            <Navigation>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v</Navigation>
+            <Navigation>78</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v(79): </Dynamic>
+            <Dynamic>32</Dynamic>
+            <Dynamic>1</Dynamic>
+            <Navigation>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v</Navigation>
+            <Navigation>79</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v(80): </Dynamic>
+            <Dynamic>32</Dynamic>
+            <Dynamic>1</Dynamic>
+            <Navigation>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v</Navigation>
+            <Navigation>80</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v(136): </Dynamic>
+            <Dynamic>8</Dynamic>
+            <Dynamic>7</Dynamic>
+            <Navigation>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v</Navigation>
+            <Navigation>136</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v(137): </Dynamic>
+            <Dynamic>8</Dynamic>
+            <Dynamic>7</Dynamic>
+            <Navigation>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v</Navigation>
+            <Navigation>137</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v(138): </Dynamic>
+            <Dynamic>8</Dynamic>
+            <Dynamic>7</Dynamic>
+            <Navigation>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v</Navigation>
+            <Navigation>138</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v(139): </Dynamic>
+            <Dynamic>8</Dynamic>
+            <Dynamic>7</Dynamic>
+            <Navigation>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v</Navigation>
+            <Navigation>139</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v(140): </Dynamic>
+            <Dynamic>8</Dynamic>
+            <Dynamic>7</Dynamic>
+            <Navigation>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v</Navigation>
+            <Navigation>140</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v(141): </Dynamic>
+            <Dynamic>8</Dynamic>
+            <Dynamic>7</Dynamic>
+            <Navigation>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v</Navigation>
+            <Navigation>141</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v(151): </Dynamic>
+            <Dynamic>32</Dynamic>
+            <Dynamic>3</Dynamic>
+            <Navigation>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v</Navigation>
+            <Navigation>151</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v(158): </Dynamic>
+            <Dynamic>32</Dynamic>
+            <Dynamic>3</Dynamic>
+            <Navigation>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v</Navigation>
+            <Navigation>158</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v(165): </Dynamic>
+            <Dynamic>32</Dynamic>
+            <Dynamic>3</Dynamic>
+            <Navigation>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v</Navigation>
+            <Navigation>165</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v(168): </Dynamic>
+            <Dynamic>32</Dynamic>
+            <Dynamic>3</Dynamic>
+            <Navigation>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v</Navigation>
+            <Navigation>168</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v(171): </Dynamic>
+            <Dynamic>32</Dynamic>
+            <Dynamic>3</Dynamic>
+            <Navigation>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v</Navigation>
+            <Navigation>171</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v(174): </Dynamic>
+            <Dynamic>32</Dynamic>
+            <Dynamic>3</Dynamic>
+            <Navigation>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v</Navigation>
+            <Navigation>174</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v(177): </Dynamic>
+            <Dynamic>32</Dynamic>
+            <Dynamic>3</Dynamic>
+            <Navigation>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v</Navigation>
+            <Navigation>177</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v(180): </Dynamic>
+            <Dynamic>32</Dynamic>
+            <Dynamic>3</Dynamic>
+            <Navigation>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v</Navigation>
+            <Navigation>180</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v(187): </Dynamic>
+            <Dynamic>32</Dynamic>
+            <Dynamic>3</Dynamic>
+            <Navigation>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v</Navigation>
+            <Navigation>187</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v(190): </Dynamic>
+            <Dynamic>32</Dynamic>
+            <Dynamic>3</Dynamic>
+            <Navigation>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v</Navigation>
+            <Navigation>190</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v(193): </Dynamic>
+            <Dynamic>32</Dynamic>
+            <Dynamic>3</Dynamic>
+            <Navigation>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v</Navigation>
+            <Navigation>193</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v(196): </Dynamic>
+            <Dynamic>32</Dynamic>
+            <Dynamic>3</Dynamic>
+            <Navigation>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v</Navigation>
+            <Navigation>196</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v(199): </Dynamic>
+            <Dynamic>32</Dynamic>
+            <Dynamic>3</Dynamic>
+            <Navigation>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v</Navigation>
+            <Navigation>199</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v(202): </Dynamic>
+            <Dynamic>32</Dynamic>
+            <Dynamic>3</Dynamic>
+            <Navigation>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v</Navigation>
+            <Navigation>202</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v(205): </Dynamic>
+            <Dynamic>32</Dynamic>
+            <Dynamic>3</Dynamic>
+            <Navigation>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v</Navigation>
+            <Navigation>205</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v(208): </Dynamic>
+            <Dynamic>32</Dynamic>
+            <Dynamic>3</Dynamic>
+            <Navigation>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v</Navigation>
+            <Navigation>208</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v(211): </Dynamic>
+            <Dynamic>32</Dynamic>
+            <Dynamic>3</Dynamic>
+            <Navigation>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v</Navigation>
+            <Navigation>211</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v(214): </Dynamic>
+            <Dynamic>32</Dynamic>
+            <Dynamic>3</Dynamic>
+            <Navigation>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v</Navigation>
+            <Navigation>214</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v(217): </Dynamic>
+            <Dynamic>32</Dynamic>
+            <Dynamic>3</Dynamic>
+            <Navigation>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v</Navigation>
+            <Navigation>217</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v(220): </Dynamic>
+            <Dynamic>32</Dynamic>
+            <Dynamic>3</Dynamic>
+            <Navigation>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v</Navigation>
+            <Navigation>220</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v(228): </Dynamic>
+            <Dynamic>32</Dynamic>
+            <Dynamic>3</Dynamic>
+            <Navigation>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v</Navigation>
+            <Navigation>228</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v(231): </Dynamic>
+            <Dynamic>32</Dynamic>
+            <Dynamic>3</Dynamic>
+            <Navigation>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v</Navigation>
+            <Navigation>231</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v(234): </Dynamic>
+            <Dynamic>32</Dynamic>
+            <Dynamic>3</Dynamic>
+            <Navigation>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v</Navigation>
+            <Navigation>234</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v(237): </Dynamic>
+            <Dynamic>32</Dynamic>
+            <Dynamic>3</Dynamic>
+            <Navigation>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v</Navigation>
+            <Navigation>237</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v(240): </Dynamic>
+            <Dynamic>32</Dynamic>
+            <Dynamic>3</Dynamic>
+            <Navigation>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v</Navigation>
+            <Navigation>240</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v(243): </Dynamic>
+            <Dynamic>32</Dynamic>
+            <Dynamic>3</Dynamic>
+            <Navigation>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v</Navigation>
+            <Navigation>243</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v(250): </Dynamic>
+            <Dynamic>32</Dynamic>
+            <Dynamic>3</Dynamic>
+            <Navigation>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v</Navigation>
+            <Navigation>250</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v(253): </Dynamic>
+            <Dynamic>32</Dynamic>
+            <Dynamic>3</Dynamic>
+            <Navigation>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v</Navigation>
+            <Navigation>253</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v(256): </Dynamic>
+            <Dynamic>32</Dynamic>
+            <Dynamic>3</Dynamic>
+            <Navigation>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v</Navigation>
+            <Navigation>256</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v(259): </Dynamic>
+            <Dynamic>32</Dynamic>
+            <Dynamic>3</Dynamic>
+            <Navigation>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v</Navigation>
+            <Navigation>259</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v(262): </Dynamic>
+            <Dynamic>32</Dynamic>
+            <Dynamic>3</Dynamic>
+            <Navigation>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v</Navigation>
+            <Navigation>262</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v(265): </Dynamic>
+            <Dynamic>32</Dynamic>
+            <Dynamic>3</Dynamic>
+            <Navigation>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v</Navigation>
+            <Navigation>265</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v(268): </Dynamic>
+            <Dynamic>32</Dynamic>
+            <Dynamic>3</Dynamic>
+            <Navigation>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v</Navigation>
+            <Navigation>268</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v(271): </Dynamic>
+            <Dynamic>32</Dynamic>
+            <Dynamic>3</Dynamic>
+            <Navigation>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v</Navigation>
+            <Navigation>271</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v(274): </Dynamic>
+            <Dynamic>32</Dynamic>
+            <Dynamic>3</Dynamic>
+            <Navigation>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v</Navigation>
+            <Navigation>274</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v(277): </Dynamic>
+            <Dynamic>32</Dynamic>
+            <Dynamic>3</Dynamic>
+            <Navigation>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v</Navigation>
+            <Navigation>277</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v(280): </Dynamic>
+            <Dynamic>32</Dynamic>
+            <Dynamic>3</Dynamic>
+            <Navigation>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v</Navigation>
+            <Navigation>280</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v(283): </Dynamic>
+            <Dynamic>32</Dynamic>
+            <Dynamic>3</Dynamic>
+            <Navigation>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v</Navigation>
+            <Navigation>283</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v(291): </Dynamic>
+            <Dynamic>32</Dynamic>
+            <Dynamic>3</Dynamic>
+            <Navigation>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v</Navigation>
+            <Navigation>291</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v(294): </Dynamic>
+            <Dynamic>32</Dynamic>
+            <Dynamic>3</Dynamic>
+            <Navigation>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v</Navigation>
+            <Navigation>294</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v(297): </Dynamic>
+            <Dynamic>32</Dynamic>
+            <Dynamic>3</Dynamic>
+            <Navigation>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v</Navigation>
+            <Navigation>297</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v(300): </Dynamic>
+            <Dynamic>32</Dynamic>
+            <Dynamic>3</Dynamic>
+            <Navigation>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v</Navigation>
+            <Navigation>300</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v(303): </Dynamic>
+            <Dynamic>32</Dynamic>
+            <Dynamic>3</Dynamic>
+            <Navigation>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v</Navigation>
+            <Navigation>303</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v(306): </Dynamic>
+            <Dynamic>32</Dynamic>
+            <Dynamic>3</Dynamic>
+            <Navigation>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/display.v</Navigation>
+            <Navigation>306</Navigation>
+        </Message>
+        <Message>
+            <ID>35901330</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/vga_leds.v(42): </Dynamic>
+            <Dynamic>32</Dynamic>
+            <Dynamic>24</Dynamic>
+            <Dynamic>segments</Dynamic>
+            <Navigation>e:/projects/prj_fpga_lattice/prj_ve-lcmxo27000hc/lcmx_prj/projects/vga_leds_seg7/vga_leds.v</Navigation>
+            <Navigation>42</Navigation>
+        </Message>
+        <Message>
+            <ID>35002005</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>LED[7]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35002005</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>LED[6]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35002005</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>LED[5]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35002005</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>LED[4]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35002005</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>LED[3]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35002005</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>LED[2]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35002005</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>LED[1]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35002005</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>LED[0]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35001611</ID>
+            <Severity>Warning</Severity>
+        </Message>
+    </Task>
+    <Task name="PAR">
+        <Message>
+            <ID>61061008</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>KEY1_c</Dynamic>
+            <Dynamic>Secondary</Dynamic>
+            <Dynamic>KEY1</Dynamic>
+            <Dynamic>12</Dynamic>
+            <Dynamic>Secondary</Dynamic>
+        </Message>
+    </Task>
+</BaliMessageLog>

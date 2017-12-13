@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliProject version="3.2" title="vga_leds_seg7" device="LCMXO2-7000HC-5TG144C" default_implementation="impl1">
+    <Options/>
+    <Implementation title="impl1" dir="impl1" description="impl1" synthesis="lse" default_strategy="Strategy1">
+        <Options def_top="vga_leds"/>
+        <Source name="display.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="hvsync.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="vga_leds.v" type="Verilog" type_short="Verilog">
+            <Options top_module="vga_leds"/>
+        </Source>
+        <Source name="main_pll.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="impl1/impl1.xcf" type="Programming Project File" type_short="Programming">
+            <Options/>
+        </Source>
+        <Source name="vga_leds_seg7.lpf" type="Logic Preference" type_short="LPF">
+            <Options/>
+        </Source>
+    </Implementation>
+    <Strategy name="Strategy1" file="vga_leds_seg71.sty"/>
+</BaliProject>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BuildStatus>
+    <Strategy name="Strategy1">
+        <Milestone name="Export" build_result="0" build_time="0">
+            <Task name="IBIS" build_result="0" update_result="3" update_time="0"/>
+            <Task name="TimingSimFileVlg" build_result="0" update_result="3" update_time="0"/>
+            <Task name="TimingSimFileVHD" build_result="0" update_result="3" update_time="0"/>
+            <Task name="Bitgen" build_result="2" update_result="0" update_time="1511457477"/>
+            <Task name="Jedecgen" build_result="2" update_result="0" update_time="1511458015"/>
+        </Milestone>
+        <Milestone name="Map" build_result="2" build_time="1511457452">
+            <Task name="Map" build_result="2" update_result="0" update_time="1511457452"/>
+            <Task name="MapTrace" build_result="2" update_result="0" update_time="1511457453"/>
+            <Task name="MapVerilogSimFile" build_result="2" update_result="0" update_time="1511457454"/>
+            <Task name="MapVHDLSimFile" build_result="2" update_result="0" update_time="1511457455"/>
+        </Milestone>
+        <Milestone name="PAR" build_result="2" build_time="1511457471">
+            <Task name="PAR" build_result="2" update_result="0" update_time="1511457471"/>
+            <Task name="PARTrace" build_result="2" update_result="0" update_time="1511457472"/>
+            <Task name="IOTiming" build_result="2" update_result="0" update_time="1511457474"/>
+        </Milestone>
+        <Milestone name="Synthesis" build_result="2" build_time="1511457236">
+            <Task name="Lattice_Synthesis" build_result="2" update_result="0" update_time="1511457236"/>
+            <Task name="LSE_Compile" build_result="2" update_result="0" update_time="1511457269"/>
+        </Milestone>
+        <Milestone name="TOOL_Report" build_result="0" build_time="0">
+            <Task name="HDLE" build_result="2" update_result="0" update_time="1511458008"/>
+            <Task name="BKM" build_result="0" update_result="2" update_time="0"/>
+            <Task name="SSO" build_result="0" update_result="2" update_time="0"/>
+            <Task name="PIODRC" build_result="0" update_result="2" update_time="0"/>
+            <Task name="DEC" build_result="0" update_result="2" update_time="0"/>
+        </Milestone>
+        <Report name=".vdbs/vga_leds_seg7_impl1_map.vdb" last_build_time="1511457451" last_build_size="118325"/>
+        <Report name="vga_leds_seg7_impl1.bgn" last_build_time="1511458015" last_build_size="4365"/>
+        <Report name="vga_leds_seg7_impl1.bit" last_build_time="1511457477" last_build_size="28935"/>
+        <Report name="vga_leds_seg7_impl1.ior" last_build_time="1511457474" last_build_size="2197"/>
+        <Report name="vga_leds_seg7_impl1.jed" last_build_time="1511458015" last_build_size="1465134"/>
+        <Report name="vga_leds_seg7_impl1.lsedata" last_build_time="1511457234" last_build_size="624713"/>
+        <Report name="vga_leds_seg7_impl1.ncd" last_build_time="1511457471" last_build_size="362194"/>
+        <Report name="vga_leds_seg7_impl1.ngd" last_build_time="1511457236" last_build_size="292867"/>
+        <Report name="vga_leds_seg7_impl1.tw1" last_build_time="1511457452" last_build_size="17297"/>
+        <Report name="vga_leds_seg7_impl1.twr" last_build_time="1511457472" last_build_size="72732"/>
+        <Report name="vga_leds_seg7_impl1_map.ncd" last_build_time="1511457451" last_build_size="254367"/>
+        <Report name="vga_leds_seg7_impl1_mapvho.sdf" last_build_time="1511457455" last_build_size="253121"/>
+        <Report name="vga_leds_seg7_impl1_mapvho.vho" last_build_time="1511457455" last_build_size="1679005"/>
+        <Report name="vga_leds_seg7_impl1_mapvo.sdf" last_build_time="1511457454" last_build_size="260291"/>
+        <Report name="vga_leds_seg7_impl1_mapvo.vo" last_build_time="1511457454" last_build_size="281712"/>
+    </Strategy>
+</BuildStatus>

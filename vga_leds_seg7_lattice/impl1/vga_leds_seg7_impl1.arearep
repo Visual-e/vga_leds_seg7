@@ -1,0 +1,60 @@
+----------------------------------------------------------------------
+Report for cell vga_leds.TECH
+Register bits:  138 of 7209 (1.914%)
+I/O cells:      25
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2D        34          100.0
+                            EHXPLLJ         1          100.0
+                            FD1P3AX        65          100.0
+                            FD1S3AX        47          100.0
+                            FD1S3BX         4          100.0
+                            FD1S3DX        21          100.0
+                            FD1S3IX         1          100.0
+                                GSR         1          100.0
+                                 IB         3          100.0
+                            L6MUX21        11          100.0
+                               LUT4       294          100.0
+                                 OB        22          100.0
+                              PFUMX        28          100.0
+                        VERIFIC_PWR         1          100.0
+SUB MODULES
+                            display         1
+                             hvsync         1
+                           main_pll         1
+                              TOTAL       536
+----------------------------------------------------------------------
+Report for cell main_pll.v1
+Instance Path : main_pll_inst
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            EHXPLLJ         1          100.0
+                              TOTAL         1
+----------------------------------------------------------------------
+Report for cell display.v1
+Instance Path : r_3__I_0
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2D        13           38.2
+                            FD1P3AX        25           38.5
+                            FD1S3AX        47          100.0
+                            FD1S3BX         4          100.0
+                            FD1S3DX        21          100.0
+                            FD1S3IX         1          100.0
+                            L6MUX21        11          100.0
+                               LUT4       293           99.7
+                              PFUMX        28          100.0
+SUB MODULES
+                             hvsync         1
+                              TOTAL       444
+----------------------------------------------------------------------
+Report for cell hvsync.v1
+Instance Path : r_3__I_0.u_hvsync
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2D        13           38.2
+                            FD1S3BX         4          100.0
+                            FD1S3DX        21          100.0
+                               LUT4        64           21.8
+                              PFUMX         1            3.6
+                              TOTAL       103

@@ -1,0 +1,263 @@
+
+Lattice Place and Route Report for Design "vga_leds_seg7_impl1_map.ncd"
+Thu Nov 23 22:17:35 2017
+
+PAR: Place And Route Diamond (64-bit) 3.10.0.111.2.
+Command Line: par -w -l 5 -i 6 -t 1 -c 0 -e 0 -gui -exp parUseNBR=1:parCDP=0:parCDR=0:parPathBased=OFF vga_leds_seg7_impl1_map.ncd vga_leds_seg7_impl1.dir/5_1.ncd vga_leds_seg7_impl1.prf
+Preference file: vga_leds_seg7_impl1.prf.
+Placement level-cost: 5-1.
+Routing Iterations: 6
+
+Loading design for application par from file vga_leds_seg7_impl1_map.ncd.
+Design name: vga_leds
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO2-7000HC
+Package:     TQFP144
+Performance: 5
+Loading device for application par from file 'xo2c7000.nph' in environment: D:/dev/lattice/lscc/diamond/3.10_x64/ispfpga.
+Package Status:                     Final          Version 1.39.
+Performance Hardware Data Status:   Final          Version 34.4.
+License checked out.
+
+
+Ignore Preference Error(s):  True
+Device utilization summary:
+
+   PIO (prelim)   25+4(JTAG)/336     9% used
+                  25+4(JTAG)/115     25% bonded
+
+   SLICE            184/3432          5% used
+
+   GSR                1/1           100% used
+   PLL                1/2            50% used
+
+
+Number of Signals: 514
+Number of Connections: 1432
+
+Pin Constraint Summary:
+   17 out of 25 pins locked (68% locked).
+
+The following 1 signal is selected to use the primary clock routing resources:
+    w_clk_video (driver: main_pll_inst/PLLInst_0, clk load #: 69)
+
+
+The following 4 signals are selected to use the secondary clock routing resources:
+    KEY1_c (driver: KEY1, clk load #: 0, sr load #: 0, ce load #: 21)
+    w_locked (driver: main_pll_inst/PLLInst_0, clk load #: 0, sr load #: 14, ce load #: 0)
+    r_3__I_0/w_hsync (driver: r_3__I_0/SLICE_80, clk load #: 7, sr load #: 0, ce load #: 0)
+    r_3__I_0/red_leds_fixed_15__N_208 (driver: r_3__I_0/SLICE_90, clk load #: 0, sr load #: 0, ce load #: 13)
+
+WARNING - par: Signal "KEY1_c" is selected to use Secondary clock resources. However, its driver comp "KEY1" is located at "12", which is not a dedicated pin for connecting to Secondary clock resources. General routing has to be used to route this signal, and it might suffer from excessive delay or skew.
+Signal KEY0_c is selected as Global Set/Reset.
+.
+Starting Placer Phase 0.
+.................
+Finished Placer Phase 0.  REAL time: 2 secs 
+
+Starting Placer Phase 1.
+....................
+Placer score = 76496.
+Finished Placer Phase 1.  REAL time: 7 secs 
+
+Starting Placer Phase 2.
+.
+Placer score =  76125
+Finished Placer Phase 2.  REAL time: 8 secs 
+
+
+------------------ Clock Report ------------------
+
+Global Clock Resources:
+  CLK_PIN    : 0 out of 8 (0%)
+  General PIO: 1 out of 336 (0%)
+  PLL        : 1 out of 2 (50%)
+  DCM        : 0 out of 2 (0%)
+  DCC        : 0 out of 8 (0%)
+
+Quadrants All (TL, TR, BL, BR) - Global Clocks:
+  PRIMARY "w_clk_video" from CLKOP on comp "main_pll_inst/PLLInst_0" on PLL site "LPLL", clk load = 69
+  SECONDARY "KEY1_c" from comp "KEY1" on PIO site "12 (PL9B)", clk load = 0, ce load = 21, sr load = 0
+  SECONDARY "w_locked" from LOCK on comp "main_pll_inst/PLLInst_0" on PLL site "LPLL", clk load = 0, ce load = 0, sr load = 14
+  SECONDARY "r_3__I_0/w_hsync" from Q0 on comp "r_3__I_0/SLICE_80" on site "R8C2C", clk load = 7, ce load = 0, sr load = 0
+  SECONDARY "r_3__I_0/red_leds_fixed_15__N_208" from F1 on comp "r_3__I_0/SLICE_90" on site "R14C18B", clk load = 0, ce load = 13, sr load = 0
+
+  PRIMARY  : 1 out of 8 (12%)
+  SECONDARY: 4 out of 8 (50%)
+
+Edge Clocks:
+  No edge clock selected.
+
+--------------- End of Clock Report ---------------
+
+
+I/O Usage Summary (final):
+   25 + 4(JTAG) out of 336 (8.6%) PIO sites used.
+   25 + 4(JTAG) out of 115 (25.2%) bonded PIO sites used.
+   Number of PIO comps: 25; differential: 0.
+   Number of Vref pins used: 0.
+
+I/O Bank Usage Summary:
++----------+----------------+------------+-----------+
+| I/O Bank | Usage          | Bank Vccio | Bank Vref |
++----------+----------------+------------+-----------+
+| 0        | 0 / 28 (  0%)  | -          | -         |
+| 1        | 0 / 29 (  0%)  | -          | -         |
+| 2        | 5 / 29 ( 17%)  | 2.5V       | -         |
+| 3        | 8 / 9 ( 88%)   | 2.5V       | -         |
+| 4        | 10 / 10 (100%) | 2.5V       | -         |
+| 5        | 2 / 10 ( 20%)  | 2.5V       | -         |
++----------+----------------+------------+-----------+
+
+Total placer CPU time: 6 secs 
+
+Dumping design to file vga_leds_seg7_impl1.dir/5_1.ncd.
+
+0 connections routed; 1432 unrouted.
+Starting router resource preassignment
+
+Completed router resource preassignment. Real time: 10 secs 
+
+Start NBR router at 22:17:45 11/23/17
+
+*****************************************************************
+Info: NBR allows conflicts(one node used by more than one signal)
+      in the earlier iterations. In each iteration, it tries to  
+      solve the conflicts while keeping the critical connections 
+      routed as short as possible. The routing process is said to
+      be completed when no conflicts exist and all connections   
+      are routed.                                                
+Note: NBR uses a different method to calculate timing slacks. The
+      worst slack and total negative slack may not be the same as
+      that in TRCE report. You should always run TRCE to verify  
+      your design.                                               
+*****************************************************************
+
+Start NBR special constraint process at 22:17:45 11/23/17
+
+Start NBR section for initial routing at 22:17:45 11/23/17
+Level 1, iteration 1
+21(0.01%) conflicts; 1088(75.98%) untouched conns; 66118 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -1.498ns/-66.118ns; real time: 11 secs 
+Level 2, iteration 1
+52(0.01%) conflicts; 857(59.85%) untouched conns; 53392 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -1.529ns/-53.392ns; real time: 11 secs 
+Level 3, iteration 1
+31(0.01%) conflicts; 598(41.76%) untouched conns; 67023 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -1.539ns/-67.023ns; real time: 11 secs 
+Level 4, iteration 1
+53(0.01%) conflicts; 0(0.00%) untouched conn; 74722 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -1.557ns/-74.722ns; real time: 12 secs 
+
+Info: Initial congestion level at 75% usage is 0
+Info: Initial congestion area  at 75% usage is 0 (0.00%)
+
+Start NBR section for normal routing at 22:17:47 11/23/17
+Level 1, iteration 1
+26(0.01%) conflicts; 46(3.21%) untouched conns; 71798 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -1.551ns/-71.798ns; real time: 12 secs 
+Level 2, iteration 1
+21(0.01%) conflicts; 47(3.28%) untouched conns; 77639 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -1.551ns/-77.639ns; real time: 12 secs 
+Level 3, iteration 1
+20(0.01%) conflicts; 44(3.07%) untouched conns; 80976 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -1.551ns/-80.976ns; real time: 12 secs 
+Level 4, iteration 1
+23(0.01%) conflicts; 0(0.00%) untouched conn; 82381 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -1.557ns/-82.381ns; real time: 13 secs 
+Level 4, iteration 2
+16(0.00%) conflicts; 0(0.00%) untouched conn; 83316 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -1.553ns/-83.316ns; real time: 13 secs 
+Level 4, iteration 3
+11(0.00%) conflicts; 0(0.00%) untouched conn; 89965 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -1.873ns/-89.965ns; real time: 13 secs 
+Level 4, iteration 4
+8(0.00%) conflicts; 0(0.00%) untouched conn; 89965 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -1.873ns/-89.965ns; real time: 13 secs 
+Level 4, iteration 5
+6(0.00%) conflicts; 0(0.00%) untouched conn; 95562 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -1.880ns/-95.562ns; real time: 13 secs 
+Level 4, iteration 6
+6(0.00%) conflicts; 0(0.00%) untouched conn; 95562 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -1.880ns/-95.562ns; real time: 13 secs 
+Level 4, iteration 7
+4(0.00%) conflicts; 0(0.00%) untouched conn; 99353 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -1.880ns/-99.354ns; real time: 13 secs 
+Level 4, iteration 8
+5(0.00%) conflicts; 0(0.00%) untouched conn; 99353 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -1.880ns/-99.354ns; real time: 13 secs 
+Level 4, iteration 9
+4(0.00%) conflicts; 0(0.00%) untouched conn; 96146 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -1.880ns/-96.147ns; real time: 14 secs 
+Level 4, iteration 10
+3(0.00%) conflicts; 0(0.00%) untouched conn; 96146 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -1.880ns/-96.147ns; real time: 14 secs 
+Level 4, iteration 11
+2(0.00%) conflicts; 0(0.00%) untouched conn; 99266 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -1.880ns/-99.267ns; real time: 14 secs 
+Level 4, iteration 12
+1(0.00%) conflict; 0(0.00%) untouched conn; 99266 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -1.880ns/-99.267ns; real time: 14 secs 
+Level 4, iteration 13
+0(0.00%) conflict; 0(0.00%) untouched conn; 106915 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -1.880ns/-106.916ns; real time: 14 secs 
+
+Start NBR section for performance tuning (iteration 1) at 22:17:49 11/23/17
+Level 4, iteration 1
+0(0.00%) conflict; 0(0.00%) untouched conn; 106915 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -1.880ns/-106.916ns; real time: 14 secs 
+
+Start NBR section for re-routing at 22:17:49 11/23/17
+Level 4, iteration 1
+0(0.00%) conflict; 0(0.00%) untouched conn; 106915 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -1.880ns/-106.916ns; real time: 14 secs 
+
+Start NBR section for post-routing at 22:17:49 11/23/17
+
+End NBR router with 0 unrouted connection
+
+NBR Summary
+-----------
+  Number of unrouted connections : 0 (0.00%)
+  Number of connections with timing violations : 121 (8.45%)
+  Estimated worst slack<setup> : -1.880ns
+  Timing score<setup> : 71047
+-----------
+Notes: The timing info is calculated for SETUP only and all PAR_ADJs are ignored.
+
+
+
+Total CPU time 14 secs 
+Total REAL time: 16 secs 
+Completely routed.
+End of route.  1432 routed (100.00%); 0 unrouted.
+
+Hold time timing score: 0, hold timing errors: 0
+
+Timing score: 71047 
+
+Dumping design to file vga_leds_seg7_impl1.dir/5_1.ncd.
+
+
+All signals are completely routed.
+
+
+PAR_SUMMARY::Run status = Success
+PAR_SUMMARY::Number of unrouted conns = 0
+PAR_SUMMARY::Worst  slack<setup/<ns>> = -1.880
+PAR_SUMMARY::Timing score<setup/<ns>> = 71.047
+PAR_SUMMARY::Worst  slack<hold /<ns>> = 0.308
+PAR_SUMMARY::Timing score<hold /<ns>> = 0.000
+PAR_SUMMARY::Number of errors = 0
+
+Total CPU  time to completion: 14 secs 
+Total REAL time to completion: 16 secs 
+
+par done!
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
